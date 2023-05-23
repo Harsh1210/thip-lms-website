@@ -2403,15 +2403,20 @@ textarea:-ms-input-placeholder {
   .rbt-section-gap {
     padding: 80px 0;
   }
+  .hidden-for-mb-lp {
+    display: none;
+  }
 }
 @media only screen and (max-width: 767px) {
   .rbt-section-gap {
     padding: 80px 0;
   }
-
+  
   .hidden-for-mb-lp {
     display: none;
   }
+
+  
 }
 
 .rbt-section-gap2 {
