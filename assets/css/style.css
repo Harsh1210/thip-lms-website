@@ -1100,7 +1100,7 @@ ol ul {
   position: relative;
   z-index: 1;
   /* background: linear-gradient(270deg, var(--color-secondary) 0%, var(--color-primary) 100%) !important; */
-  background: var(--color-secondary) !important;
+  background: var(--color-light) !important;
 }
 
 .rbt-page-banner-wrapper .rbt-banner-image::after, .bg-gradient-9::after {
@@ -14832,8 +14832,8 @@ span.transparent-button:hover i {
   }
 }
 
-.breadcrumb-inner {
-  background: var(--color-secondary);
+/* .breadcrumb-inner {
+  background: var(--color-light);
   position: absolute;
   left: 0;
   top: 0;
@@ -14843,7 +14843,7 @@ span.transparent-button:hover i {
 
 .breadcrumb-inner::after {
   background: var(--color-secondary);
-}
+} */
 
 .rbt-breadcrumb-default.rbt-breadcrumb-style-3 .breadcrumb-inner > img {
   position: absolute;
@@ -23899,7 +23899,8 @@ blockquote.has-text-align-right cite,
 }
 .cart-table .table thead {
   background-color: var(--color-primary);
-  background-image: linear-gradient(to right, var(--color-primary), var(--color-secondary), var(--color-secondary), var(--color-primary));
+  /* background-image: linear-gradient(to right, var(--color-primary), var(--color-secondary), var(--color-secondary), var(--color-primary)); */
+  background-image: var(--color-primary);
   background-size: 300% 100%;
 }
 @media only screen and (max-width: 575px) {
