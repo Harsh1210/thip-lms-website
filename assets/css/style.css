@@ -16923,6 +16923,12 @@ span.transparent-button:hover i {
   }
 }
 @media only screen and (max-width: 575px) {
+  .rbt-accordion-style .card .card-header button .rbt-badge-new {
+    margin-left: 0 !important;
+    margin-top: 7px;
+  }
+}
+@media only screen and (max-width: 575px) {
   .rbt-accordion-style .card .card-header button .rbt-badge-5 {
     margin-left: 0 !important;
     margin-top: 7px;
@@ -18154,11 +18160,23 @@ span.transparent-button:hover i {
   transform: scale(1);
 }
 
-.rbt-badge-5 {
+.rbt-badge-new {
   background: var(--color-secondary);
   color: white;
   padding: 5px 7px;
   font-size: 20px;
+  display: flex;
+  height: 22px;
+  align-items: center;
+  border-radius: var(--radius-small);
+  justify-content: center;
+  width: max-content;
+}
+
+.rbt-badge-5 {
+  background: var(--color-gray-light);
+  padding: 5px 7px;
+  font-size: 12px;
   display: flex;
   height: 22px;
   align-items: center;
