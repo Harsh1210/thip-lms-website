@@ -12832,11 +12832,13 @@ ul.rbt-dropdown-menu.currency-menu li .sub-menu {
   opacity: 0;
   transition: opacity 0.5s ease-out;
 }
+
 @media only screen and (min-width: 1200px) {
   .popup-mobile-menu {
     display: none;
   }
 }
+
 .popup-mobile-menu .inner-wrapper {
   width: 400px;
   z-index: 999;
@@ -12854,6 +12856,7 @@ ul.rbt-dropdown-menu.currency-menu li .sub-menu {
   position: relative;
   overflow-y: auto;
 }
+
 @media only screen and (max-width: 767px) {
   .popup-mobile-menu .inner-wrapper {
     padding: 30px 30px;
@@ -12883,6 +12886,28 @@ ul.rbt-dropdown-menu.currency-menu li .sub-menu {
 .popup-mobile-menu .inner-wrapper .inner-top .logo a img {
   max-height: 45px;
 }
+
+.popup-mobile-menu .inner-wrapper .inner-top .logo h6 {
+  display: flex;
+  margin-bottom: 0px;
+}
+
+.popup-mobile-menu .inner-wrapper .inner-top .logo h6 .logo-name{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: auto;
+  margin-left: 1rem;
+}
+
+.popup-mobile-menu .inner-wrapper .inner-top .logo h6 .logo-name .text-title-mob{
+  display: block;
+  color: #000000;
+  font-family: Exo !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+}
+
 .popup-mobile-menu .inner-wrapper .inner-top .close-button {
   background: var(--color-white);
   border: 0 none;
